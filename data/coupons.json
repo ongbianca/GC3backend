@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c-1",
+    "code": "BADMINTON20",
+    "type": "percent",
+    "amount": 20,
+    "maxUses": 999999,
+    "used": 2,
+    "expiresAt": null,
+    "createdAt": "2025-11-23T01:15:14.828Z"
+  },
+  {
+    "id": "c-2",
+    "code": "BASKETBALL20",
+    "type": "percent",
+    "amount": 20,
+    "maxUses": 999999,
+    "used": 1,
+    "expiresAt": null,
+    "createdAt": "2025-11-23T01:15:14.828Z"
+  },
+  {
+    "id": "c-3",
+    "code": "TENNIS20",
+    "type": "percent",
+    "amount": 20,
+    "maxUses": 999999,
+    "used": 1,
+    "expiresAt": null,
+    "createdAt": "2025-11-23T01:15:14.828Z"
+  },
+  {
+    "id": "c-4",
+    "code": "PICKLEBALL20",
+    "type": "percent",
+    "amount": 20,
+    "maxUses": 999999,
+    "used": 0,
+    "expiresAt": null,
+    "createdAt": "2025-11-23T01:15:14.828Z"
+  },
+  {
+    "id": "c-5",
+    "code": "SOCCER20",
+    "type": "percent",
+    "amount": 20,
+    "maxUses": 999999,
+    "used": 0,
+    "expiresAt": null,
+    "createdAt": "2025-11-23T01:15:14.828Z"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "bk-1762003268382",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton - Single Court (mock)",
+    "unitId": "u-1",
+    "unitName": "Makati (Indoor #1)",
+    "date": "2025-11-02",
+    "time": "13:00",
+    "customerName": "Lauren Lee",
+    "contact": "639179375999",
+    "price": null,
+    "status": "cancelled",
+    "createdAt": "2025-11-01T13:21:08.384Z",
+    "cancelledAt": "2025-11-23T00:39:21.724Z",
+    "cancelReason": "Change of plans",
+    "updatedAt": "2025-11-23T00:39:21.724Z",
+    "history": [
+      {
+        "ts": "2025-11-23T00:39:21.724Z",
+        "actor": "Lauren",
+        "action": "cancelled",
+        "note": "Change of plans"
+      }
+    ]
+  },
+  {
+    "id": "b614b3e9-dd5c-45f9-a203-7c29a9a25d25",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton",
+    "unitId": "u-1",
+    "unitName": "Makati #1",
+    "date": "2025-12-05",
+    "time": "15:00",
+    "customerName": "Ana",
+    "contact": "0917xxx",
+    "price": 250,
+    "status": "confirmed_mock",
+    "createdAt": "2025-11-23T00:30:55.697Z",
+    "updatedAt": "2025-11-23T00:39:12.944Z",
+    "history": [
+      {
+        "ts": "2025-11-23T00:39:12.945Z",
+        "actor": "Ana",
+        "action": "rescheduled",
+        "note": "Rescheduled from 2025-11-30 10:00 to 2025-12-05 15:00"
+      }
+    ]
+  },
+  {
+    "id": "1ad96246-da0c-4fc0-a6d9-c0bc9b86a09f",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton",
+    "unitId": "u-1",
+    "unitName": "Makati #1",
+    "date": "2025-12-10",
+    "time": "09:00",
+    "customerName": "Ana",
+    "contact": "0917xxx",
+    "price": 250,
+    "status": "pending",
+    "confirmationCode": null,
+    "createdAt": "2025-11-23T00:46:16.000Z",
+    "updatedAt": "2025-11-23T00:46:16.000Z",
+    "history": [
+      {
+        "ts": "2025-11-23T00:46:16.003Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created (status=pending)"
+      }
+    ]
+  },
+  {
+    "id": "669ea4be-6513-4c51-a44a-fefcdbd4d8d2",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton",
+    "unitId": "u-1",
+    "unitName": "Badminton Unit 1",
+    "date": "2025-11-28",
+    "time": "09:00",
+    "customerName": "Charliz Chan",
+    "contact": "charliz.eiren.chan@student.ateneo.edu",
+    "price": 250,
+    "couponCode": "BADMINTON20",
+    "status": "confirmed",
+    "confirmationCode": "8DD5206F",
+    "createdAt": "2025-11-27T06:01:09.666Z",
+    "updatedAt": "2025-11-27T06:01:09.673Z",
+    "history": [
+      {
+        "ts": "2025-11-27T06:01:09.667Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created (status=pending)"
+      },
+      {
+        "ts": "2025-11-27T06:01:09.673Z",
+        "actor": "system",
+        "action": "confirmed",
+        "note": "Confirmation code 8DD5206F"
+      }
+    ]
+  },
+  {
+    "id": "13f3ee82-b573-4206-8995-036c496e5e16",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton",
+    "unitId": "u-3",
+    "unitName": "Badminton Unit 3",
+    "date": "2025-11-29",
+    "time": "11:00",
+    "customerName": "Charliz Chan",
+    "contact": "09561306968",
+    "price": 200,
+    "couponCode": "BADMINTON20",
+    "status": "confirmed",
+    "confirmationCode": null,
+    "createdAt": "2025-11-27T06:48:27.970Z",
+    "updatedAt": "2025-11-27T06:48:27.979Z",
+    "history": [
+      {
+        "ts": "2025-11-27T06:48:27.970Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created"
+      },
+      {
+        "ts": "2025-11-27T06:48:27.977Z",
+        "actor": "system",
+        "action": "coupon_applied",
+        "note": "BADMINTON20 applied (-20%)"
+      },
+      {
+        "ts": "2025-11-27T06:48:27.978Z",
+        "actor": "system",
+        "action": "loyalty_earned",
+        "note": "+2 loyalty points"
+      },
+      {
+        "ts": "2025-11-27T06:48:27.979Z",
+        "actor": "system",
+        "action": "confirmed",
+        "note": "Booking confirmed"
+      }
+    ]
+  },
+  {
+    "id": "9870501a-a8b8-476b-9332-34e1e9543acc",
+    "serviceId": "svc-1",
+    "serviceName": "Badminton",
+    "unitId": "u-3",
+    "unitName": "Badminton Unit 3",
+    "date": "2025-11-29",
+    "time": "09:00",
+    "customerName": "Charliz Chan",
+    "contact": "09561306968",
+    "price": 200,
+    "couponCode": "BADMINTON20",
+    "status": "confirmed",
+    "confirmationCode": null,
+    "createdAt": "2025-11-27T06:50:47.264Z",
+    "updatedAt": "2025-11-27T06:50:47.271Z",
+    "history": [
+      {
+        "ts": "2025-11-27T06:50:47.264Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created"
+      },
+      {
+        "ts": "2025-11-27T06:50:47.269Z",
+        "actor": "system",
+        "action": "coupon_applied",
+        "note": "BADMINTON20 applied (-20%)"
+      },
+      {
+        "ts": "2025-11-27T06:50:47.270Z",
+        "actor": "system",
+        "action": "loyalty_earned",
+        "note": "+2 loyalty points"
+      },
+      {
+        "ts": "2025-11-27T06:50:47.271Z",
+        "actor": "system",
+        "action": "confirmed",
+        "note": "Booking confirmed"
+      }
+    ]
+  },
+  {
+    "id": "a70e8751-265a-468a-b839-ed102759fab4",
+    "serviceId": "svc-3",
+    "serviceName": "Basketball",
+    "unitId": "u-3",
+    "unitName": "Basketball Unit 3",
+    "date": "2025-11-30",
+    "time": "09:00",
+    "customerName": "Charliz Chan",
+    "contact": "09561306968",
+    "price": 480,
+    "couponCode": "BASKETBALL20",
+    "status": "confirmed",
+    "confirmationCode": null,
+    "createdAt": "2025-11-27T06:59:55.519Z",
+    "updatedAt": "2025-11-27T06:59:55.527Z",
+    "history": [
+      {
+        "ts": "2025-11-27T06:59:55.519Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created"
+      },
+      {
+        "ts": "2025-11-27T06:59:55.525Z",
+        "actor": "system",
+        "action": "coupon_applied",
+        "note": "BASKETBALL20 applied (-20%)"
+      },
+      {
+        "ts": "2025-11-27T06:59:55.526Z",
+        "actor": "system",
+        "action": "loyalty_earned",
+        "note": "+4 loyalty points"
+      },
+      {
+        "ts": "2025-11-27T06:59:55.527Z",
+        "actor": "system",
+        "action": "confirmed",
+        "note": "Booking confirmed"
+      }
+    ]
+  },
+  {
+    "id": "1f46590e-3a94-438c-b71d-8b0f3ab55f76",
+    "serviceId": "svc-2",
+    "serviceName": "Tennis",
+    "unitId": "u-2",
+    "unitName": "Tennis Unit 2",
+    "date": "2025-11-29",
+    "time": "09:00",
+    "customerName": "Charliz Chan",
+    "contact": "charliz.eiren.chan@student.ateneo.edu",
+    "price": 320,
+    "couponCode": "TENNIS20",
+    "status": "confirmed",
+    "confirmationCode": null,
+    "createdAt": "2025-11-27T07:10:45.267Z",
+    "updatedAt": "2025-11-27T07:10:45.275Z",
+    "history": [
+      {
+        "ts": "2025-11-27T07:10:45.267Z",
+        "actor": "system",
+        "action": "created",
+        "note": "Booking created"
+      },
+      {
+        "ts": "2025-11-27T07:10:45.273Z",
+        "actor": "system",
+        "action": "coupon_applied",
+        "note": "TENNIS20 applied (-20%)"
+      },
+      {
+        "ts": "2025-11-27T07:10:45.274Z",
+        "actor": "system",
+        "action": "loyalty_earned",
+        "note": "+3 loyalty points"
+      },
+      {
+        "ts": "2025-11-27T07:10:45.275Z",
+        "actor": "system",
+        "action": "confirmed",
+        "note": "Booking confirmed"
+      }
+    ]
+  }
+]
